@@ -35,3 +35,9 @@ for (int i = 0; i < count; i++)
         counter++;
     }
 }
+
+Console.WriteLine("Новый массив из строк, длина которых <= 3:");
+for (int i = 0; i < resultCount; i++)
+{
+    Console.WriteLine(newArray[i]);
+}
