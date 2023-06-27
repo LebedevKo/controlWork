@@ -23,3 +23,15 @@ for (int i = 0; i < count; i++)
         resultCount++;
     }
 }
+
+newArray = new string[resultCount];
+int counter = 0;
+
+for (int i = 0; i < count; i++)
+{
+    if (originalArray[i].Length <= 3)
+    {
+        newArray[counter] = originalArray[i];
+        counter++;
+    }
+}
