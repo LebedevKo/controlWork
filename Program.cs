@@ -15,3 +15,11 @@ for (int i = 0; i < count; i++)
     Console.WriteLine("Введите строку:");
     originalArray[i] = Console.ReadLine();
 }
+
+for (int i = 0; i < count; i++)
+{
+    if (originalArray[i].Length <= 3)
+    {
+        resultCount++;
+    }
+}
